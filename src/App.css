@@ -1,0 +1,70 @@
+h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+h3 {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 1200px;
+    font-size: 1.3em;
+    border: 1px solid black;
+    padding: 10px 15px 20px;
+}
+
+.codeSnippet {
+    margin-bottom: 40px;
+}
+
+.typeInput {
+    width: 90%;
+    justify-content: left;
+    font-size: 18px;
+}
+
+.stopwatch {
+    display: flex;
+    position: relative
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.reset {
+    display: flex;
+    height: 20px;
+    justify-self: left;
+    align-self: center;
+    margin: 0 20px 0 0;
+}
+
+.navbar { 
+    display: flex;
+    margin: 15px 30px 15px 30px;
+    justify-content: space-between;
+}
+
+.navButtons { 
+    display: flex;
+    width: 15%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.resultsText {
+    display: flex;
+    justify-content: space-evenly;
+}
+.chartContainer {
+    margin: 0 auto;
+}
